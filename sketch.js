@@ -6,6 +6,8 @@ function setup() {
 
     colorMode(HSB, 255);
     ellipseMode(CORNER);
+
+    fullscreen(true);
 }
 
 function draw() {
