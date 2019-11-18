@@ -16,7 +16,7 @@ var squares = [];
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    background(255);
+    background(0);
 
     colorMode(HSB, 255);
     ellipseMode(CORNER);
@@ -25,9 +25,9 @@ function setup() {
 }
 
 function draw() {
-    background(255);
+    background(0);
 
-    fill(0);
+    fill(255);
     noStroke();
     rect(10, 10, 25, 25);
     ellipse(40, 10, 25, 25);
